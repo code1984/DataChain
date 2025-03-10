@@ -1,0 +1,74 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn-debug.log
+.pnpm-debug.log
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+dist/
+build/
+out/
+target/
+*.o
+*.so
+*.wasm
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+logs/
+*.log
+
+# Testing
+coverage/
+.nyc_output/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Solana
+.anchor/
+keypair.json
+wallet.json
+*.keypair
+
+# AI models
+ai-engine/models/*.bin
+ai-engine/models/*.onnx
+ai-engine/models/*.h5
+ai-engine/models/*.pt
+ai-engine/models/*.pkl
+
+# Temporary files
+tmp/
+temp/
+.cache/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Frontend
+.next/
+.nuxt/
+
+# Package files
+*.tgz
+*.tar.gz
+*.zip 
